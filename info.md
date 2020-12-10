@@ -1,33 +1,48 @@
-# Clear Theme Dark
+# Vibrant (Dark) Clear Theme
+## Screenshot
+![clear-dark-vibrant](https://user-images.githubusercontent.com/11828103/101709740-01543500-3acb-11eb-9793-178241f5733b.png)
 
 ## Installation
 
-1. Add this under the section `frontend` in your `config.yaml`:
+1. Copy the folder `themes` into your home-assistant folder
+2. Add this under the section `frontend` in your `config.yaml`:
     ```
     frontend:
       themes: !include_dir_merge_named themes
     ```
-2. Restart Home Assistant
-3. Enable the theme in your user profile (bottom left in Home Assistant)
- 
-## Screenshot
-![image](https://user-images.githubusercontent.com/12081369/68703769-8b119600-058b-11ea-9cf3-2aa01482e92f.png)
-
-## Optional custom cards from the screenshot
-1. [Button Card](https://github.com/rodrigofragadf/lovelace-cards/tree/master/tiles-card)
-2. [Animated Weather Card](https://github.com/bramkragten/custom-ui/tree/master/weather-card)
-3. [Graph Card](https://github.com/kalkih/mini-graph-card)
-4. [Slim Header](https://github.com/maykar/compact-custom-header/)
+3. Restart Home Assistant
+4. Enable the theme in your user profile (bottom left in Home Assistant)
 
 ## Known issues
-None
+* [Vacuum Card](https://github.com/denysdovhan/vacuum-card)
 
-> Feel free to leave any feedback [here](https://github.com/naofireblade/clear-theme-dark/issues).
+   Can be hard to see - see card alterations below
 
-## Donations
-If you like this theme, I would be forever grateful for your support:
+> Feel free to leave any feedback [here](https://github.com/myleskeeffe/clear-theme-dark/issues).
 
-<a href="https://www.buymeacoffee.com/2D1nUuK36" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="margin-top: 10px;"></a>
+## Card Alterations
+(Ideas/Fixes to help cards match theme)
+* Vacuum Card - Use with CardMod
+```
+style: |
+  :host {
+    --primary-color: var(--card-background-color);
+  }
+```
+* Mini Graph Card
 
-## Attributions
-1. Background Image based on an image from [visme](https://visme.co/blog/simple-backgrounds/)
+   This was made to work with my solar system - so the color_threshold and other will likely be off (and there's probably a better way to do one solid colour like this, I originally had multiple colours in it - but reverted to one and was too lazy to search for the better way).
+```
+color_thresholds:
+  - color: '#25B798'
+    value: 1500
+entities:
+  - <Your Sensor>
+hours_to_show: 24
+name: <Your Stats>
+points_per_hour: 2
+type: 'custom:mini-graph-card'
+show:
+  fill: fade
+  labels: false
+```
