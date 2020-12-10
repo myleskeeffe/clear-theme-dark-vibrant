@@ -4,6 +4,8 @@
 
 This is a theme for [Home Assistant](https://www.home-assistant.io/). You can install it [manually](#installation) or via [HACS](https://hacs.xyz/).
 
+I'm working on getting this added as a default repository in HACS, for now you will need to add it as a custom repository.
+
 ## Screenshot
 ![clear-dark-vibrant](https://user-images.githubusercontent.com/11828103/101709740-01543500-3acb-11eb-9793-178241f5733b.png)
 
