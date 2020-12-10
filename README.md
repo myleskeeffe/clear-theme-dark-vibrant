@@ -4,6 +4,9 @@
 
 This is a theme for [Home Assistant](https://www.home-assistant.io/). You can install it [manually](#installation) or via [HACS](https://hacs.xyz/).
 
+## Screenshot
+![clear-dark-vibrant](https://user-images.githubusercontent.com/11828103/101709740-01543500-3acb-11eb-9793-178241f5733b.png)
+
 ## Installation
 
 1. Copy the folder `themes` into your home-assistant folder
