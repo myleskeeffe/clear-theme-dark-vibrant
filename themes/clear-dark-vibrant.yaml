@@ -22,6 +22,7 @@ clear-dark-vibrant:
 
   # Left Menu
   paper-listbox-background-color: 'var(--app-header-background-color)'            # Background
+  sidebar-background-color: 'var(--app-header-background-color)'
   sidebar-icon-color: 'var(--text-medium-color)'                                  # icons
   sidebar-selected-icon-color: 'var(--text-medium-light-color)'                   # Selected row icon and background (15%)
   sidebar-selected-text-color: 'var(--text-color)'                                # Selected row label
