@@ -20,7 +20,8 @@ This is a theme for [Home Assistant](https://www.home-assistant.io/). You can in
 
 ## Known issues
 * [Vacuum Card](https://github.com/denysdovhan/vacuum-card)
-** Can be hard to see - see card alterations below
+
+   Can be hard to see - see card alterations below
 
 > Feel free to leave any feedback [here](https://github.com/naofireblade/clear-theme-dark/issues).
 
@@ -34,6 +35,8 @@ style: |
   }
 ```
 * Mini Graph Card
+
+   This was made to work with my solar system - so the color_threshold and other will likely be off (and there's probably a better way to do one solid colour like this, I originally had multiple colours in it - but reverted to one and was too lazy to search for the better way).
 ```
 color_thresholds:
   - color: '#25B798'
@@ -48,7 +51,3 @@ show:
   fill: fade
   labels: false
 ```
-
-
-## Attributions
-- Background Image based on an image from [visme](https://visme.co/blog/simple-backgrounds/)
