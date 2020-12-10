@@ -23,7 +23,7 @@ This is a theme for [Home Assistant](https://www.home-assistant.io/). You can in
 
    Can be hard to see - see card alterations below
 
-> Feel free to leave any feedback [here](https://github.com/naofireblade/clear-theme-dark/issues).
+> Feel free to leave any feedback [here](https://github.com/myleskeeffe/clear-theme-dark/issues).
 
 ## Card Alterations
 (Ideas/Fixes to help cards match theme)
