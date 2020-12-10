@@ -1,4 +1,4 @@
-# Clear Theme Dark
+# Vibrant (Dark) Clear Theme
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
 [![GitHub last commit](https://img.shields.io/github/last-commit/myleskeeffe/clear-theme-dark-vibrant)](https://github.com/myleskeeffe/clear-theme-dark-vibrant)
 
