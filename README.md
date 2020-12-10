@@ -1,5 +1,5 @@
 # Vibrant (Dark) Clear Theme
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge)](https://github.com/myleskeeffe/clear-theme-dark-vibrant/)
 [![GitHub last commit](https://img.shields.io/github/last-commit/myleskeeffe/clear-theme-dark-vibrant)](https://github.com/myleskeeffe/clear-theme-dark-vibrant)
 
 This is a theme for [Home Assistant](https://www.home-assistant.io/). You can install it [manually](#installation) or via [HACS](https://hacs.xyz/).
