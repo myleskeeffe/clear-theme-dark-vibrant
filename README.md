@@ -19,9 +19,35 @@ This is a theme for [Home Assistant](https://www.home-assistant.io/). You can in
 4. Enable the theme in your user profile (bottom left in Home Assistant)
 
 ## Known issues
-None
+* [Vacuum Card](https://github.com/denysdovhan/vacuum-card)
+** Can be hard to see - see card alterations below
 
 > Feel free to leave any feedback [here](https://github.com/naofireblade/clear-theme-dark/issues).
+
+## Card Alterations
+(Ideas/Fixes to help cards match theme)
+* Vacuum Card - Use with CardMod
+```
+style: |
+  :host {
+    --primary-color: var(--card-background-color);
+  }
+```
+* Mini Graph Card
+```
+color_thresholds:
+  - color: '#25B798'
+    value: 1500
+entities:
+  - <Your Sensor>
+hours_to_show: 24
+name: <Your Stats>
+points_per_hour: 2
+type: 'custom:mini-graph-card'
+show:
+  fill: fade
+  labels: false
+```
 
 
 ## Attributions
